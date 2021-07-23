@@ -40,6 +40,7 @@ print(testData.shape)
 print(testLabel.shape)
 
 # gpu setting
+
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
     try:
